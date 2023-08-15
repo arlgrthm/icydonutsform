@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Icy Mini Donuts - Feedback Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title"> Icy Mini Donuts - Feedback Form </h1>
+  <p id="description"> "Life is short, but mini donuts are even shorter! Get a taste of the sweetest, bite-sized adventure." </p>
+  
+
+  <form id="survey-form">
+
+    <label id="name-label"> Full Name: </label>
+    <input type="text" id="name" placeholder="Enter your full name" required>
+    <label id="email-label"/> Email Address </label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <label id="number-label"/> Age </label>
+    <input type="number" id="number" min="12" max="90" placeholder="Age" required>
+
+    <label for="dropdown" id="dropdown-label"> Where did you hear us? </label>
+    <select id="dropdown">
+      <option id="">Select One</option>
+      <option id="socialmedia">Social Media (FB, TWT, Tiktok etc.)</option>
+      <option id="recommendation">Recommendation</option>
+      <option id="advertisement">Advertisement</option>
+    </select>
+
+    
+    <label for="rating" id="rating-label"> How satisfied are you with the taste of our mini donuts? </label>
+    <input type="radio" name="rating" value="Very Satisfied" id="very-satisfied">
+    <label for="very-satisfied" id="rating-radio"> Very Satisfied </label>
+    <input type="radio" name="rating" value="Satisfied" id="satisfied">
+    <label for="satisfied" id="rating-radio"> Satisfied </label>
+    <input type="radio" name="rating" value="Neutral" id="neutral">
+    <label for="neutral" id="rating-radio"> Neutral </label>
+    <input type="radio" name="rating" value="Okay" id="okay">
+    <label for="okay" id="rating-radio"> Okay </label>
+    <input type="radio" name="rating" value="Bad" id="bad" id="rating-radio">
+    <label for="bad" id="rating-radio">  Bad </label>
+
+
+    <label for="factors" id="factor-label"> Please check the factors that influenced your overall experience with our mini donuts </label>
+    <input type="checkbox" name="factors" value="Taste" id="taste">
+    <label for="taste" id="factor-select"> Taste </label>
+    <input type="checkbox" name="factors" value="Flavors" id="flavors">
+    <label for="flavors" id="factor-select"> Flavors </label>
+    <input type="checkbox" name="factors" value="Packaging" id="packaging">
+    <label for="packaging" id="factor-select"> Packaging </label>
+    <input type="checkbox" name="factors" value="Pricing" id="pricing">
+    <label for="pricing" id="factor-select"> Pricing </label>
+    <input type="checkbox" name="factors" value="Customer Service" id="customer-service">
+    <label for="customer-service" id="factor-select"> Customer Service </label>
+
+    
+    <label for="comments" id="comment-label">Do you have some suggestions how can we improve our services?</label>
+    <textarea id="comments"></textarea>
+
+    <input id="submit" type="submit" value="Submit">
+  </form>
+
+
+</body>
+</html>
